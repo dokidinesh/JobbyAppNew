@@ -1,0 +1,32 @@
+.profile-section {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  max-width: 448px;
+  max-height: 250px;
+  background-size: cover;
+  padding: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.profile-name {
+  font-family: Roboto;
+  color: #6366f1;
+}
+
+.short-bio {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.retry-button {
+  background-color: #4f46e5;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+}

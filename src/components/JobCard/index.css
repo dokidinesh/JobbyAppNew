@@ -1,0 +1,86 @@
+.job-card-container {
+  background-color: #272727;
+  max-width: 95%;
+  padding: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.company-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.logo-title-rating-container {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.title-rating-container {
+  margin-left: 20px;
+}
+
+.location-type-package-container {
+  display: flex;
+  justify-content: space-between;
+
+  color: #ffffff;
+}
+
+.location-type-container {
+  display: flex;
+}
+
+.employment-type {
+  margin-left: 10px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+}
+
+.employment-type-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.job-title {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+.separator {
+  min-width: 90%;
+  border: 1px solid #b6c5ff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+.star-image {
+  color: #fbbf24;
+  margin-right: 10px;
+}
+
+.skills-heading {
+  color: #ffffff;
+  font-family: Roboto;
+}

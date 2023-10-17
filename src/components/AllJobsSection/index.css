@@ -1,0 +1,147 @@
+.all-jobs-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #000000;
+}
+
+.mobile-search-input-container {
+  display: flex;
+  align-self: flex-start;
+  margin: 20px;
+  border: 1px solid #64748b;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-search-input-container {
+    display: none;
+  }
+}
+
+.desktop-search-input-container {
+  display: flex;
+  width: 40%;
+  margin-top: 30px;
+  border: 1px solid #64748b;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 767px) {
+  .desktop-search-input-container {
+    display: none;
+  }
+}
+
+.search-input {
+  font-family: Roboto;
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #ffffff;
+}
+
+.search-icon-button {
+  background-color: #272727;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.separator {
+  max-width: 90%;
+  border: 1px solid #b6c5ff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jobs-list-container {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .responsive-container {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .profile-filters-container {
+    padding: 20px;
+    width: 30%;
+  }
+}
+
+.jobs-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-container {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-error-view-container {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 60%;
+    padding-bottom: 0;
+  }
+}
+
+.failure-view-heading {
+  color: #ffffff;
+  text-align: center;
+}
+
+.failure-view-description {
+  color: #ffffff;
+}
+
+.jobs-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-loader-container {
+    width: 100%;
+  }
+}
+
+.retry-button {
+  background-color: #4f46e5;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+}

@@ -1,0 +1,89 @@
+.nav-header {
+  display: flex;
+  color: white;
+  background-color: #272727;
+}
+
+.nav-bar-large-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-bar-large-container {
+    display: none;
+  }
+}
+
+.nav-mobile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile-container {
+    display: none;
+  }
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logout-desktop-btn {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 10px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.nav-mobile-btn {
+  border: none;
+  padding: 0px;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.mobile-website-logo {
+  width: 70px;
+}
+
+.desktop-website-logo {
+  width: 165px;
+}
+
+.nav-icon {
+  font-size: 24px;
+  margin-right: 6px;
+  color: #ffffff;
+}

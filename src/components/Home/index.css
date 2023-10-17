@@ -1,0 +1,71 @@
+.home-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    background-size: cover;
+  }
+}
+
+.home-details {
+  color: white;
+  margin: 100px;
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .home-details {
+    width: 90%;
+    margin: 20px;
+    margin-top: 50px;
+  }
+}
+
+.heading {
+  font-size: 75px;
+  font-family: Roboto;
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+
+.description {
+  font-size: 24px;
+  font-family: Roboto;
+  line-height: 1.25;
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    font-size: 14px;
+  }
+}
+
+.find-jobs-button {
+  background-color: #6366f1;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .find-jobs-button {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+}

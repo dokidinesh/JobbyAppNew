@@ -1,0 +1,35 @@
+.filters-group-container {
+  width: 90%;
+}
+
+.heading {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+}
+
+.list-container {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list-item {
+  color: #ffffff;
+  font-family: Roboto;
+  line-height: 1.75;
+}
+
+.filter-input {
+  margin-right: 20px;
+}
+
+.separator {
+  min-width: 100%;
+  border: 1px solid #b6c5ff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
